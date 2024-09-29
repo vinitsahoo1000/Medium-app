@@ -15,6 +15,20 @@ export const Blog = ()=>{
         </div>
     }
 
+    if (!blog) {
+        return <div>No blog found</div>;
+    }
+
+    if (Array.isArray(blog)) {
+        return (
+        <div>
+            {blog.map((singleBlog) => (
+            <GetBlog key={singleBlog.id} blog={singleBlog} />
+            ))}
+        </div>
+        );
+    }
+
     return <div>
         <GetBlog blog={blog}/>
     </div>
