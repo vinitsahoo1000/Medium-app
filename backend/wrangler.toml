@@ -4,7 +4,7 @@ compatibility_flags = [ "nodejs_compat" ]
 
 [vars]
 secretKey = "Vinit123"
-DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiYzVlZTk1ZTEtZDEyMC00ZTJjLWJhZjYtMTE1NTZhMjU3OGYxIiwidGVuYW50X2lkIjoiOWZhZDFlMmJkYmZhN2YxNjkyMzRiYmNmM2YzOTZiMjYyMjdhZTc2MTY2YjFmOTkzMDk2MDI4ZjQ5NjNmMjkxOSIsImludGVybmFsX3NlY3JldCI6ImE1NjVjNmNjLTcyNjQtNDQ2NC1hNTVmLWMwYThlYWQxYTlhNCJ9.cer8K4BnOUeZCsK1wbL5FPjNHvxXKytC026jgBRtB0E"
+DATABASE_URL="your connection pool db url"
 
 # [[kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
